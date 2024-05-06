@@ -12,7 +12,7 @@ def set_window_title(title):
 class stats:
     formatted = 0
 
-set_window_title(f"Palatial Cuty Formatter | Done {stats.formatted}")
+set_window_title(f"Palatial Cuty Formatter | discord.gg/botter")
 
 with open('tokens.txt', 'r') as file:
     lines = file.readlines()
