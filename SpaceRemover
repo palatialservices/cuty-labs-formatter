@@ -1,0 +1,17 @@
+# Made by bltondc | discord.gg/botter
+
+import  os
+
+from    os          import system
+
+os.system("cls")
+
+
+with open('tokens.txt', 'r') as infile:
+    lines = infile.readlines()
+
+
+lines = [line.strip() for line in lines if line.strip()]
+
+with open('tokens.txt', 'w') as outfile:
+    outfile.write('\n'.join(lines))
